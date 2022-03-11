@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/LyeZinho/cyberbullyng/issues"
   },
-  "homepage": "https://github.com/LyeZinho/cyberbullyng#readme"
+  "homepage": "https://github.com/LyeZinho/cyberbullyng#readme",
+  "dependencies": {
+    "express.js": "^1.0.0"
+  }
 }
