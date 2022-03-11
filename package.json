@@ -1,0 +1,22 @@
+{
+  "name": "cyberbullyng",
+  "version": "1.0.0",
+  "description": "Cyberbullyng website",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyeZinho/cyberbullyng.git"
+  },
+  "keywords": [
+    "cyberbullyng"
+  ],
+  "author": "LyePedro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LyeZinho/cyberbullyng/issues"
+  },
+  "homepage": "https://github.com/LyeZinho/cyberbullyng#readme"
+}
