@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/LyeZinho/cyberbullyng#readme",
   "dependencies": {
+    "express": "^4.17.3",
     "express.js": "^1.0.0"
   }
 }
