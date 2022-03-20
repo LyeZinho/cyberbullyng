@@ -11,6 +11,9 @@ datarouter.get('/about/css', function(req, res){
     res.sendFile(path.join(__dirname, '/about/style.css'));
 });
 
+datarouter.get('/howwork/css', function(req, res){
+    res.sendFile(path.join(__dirname, '/howwork/style.css'));
+});
 
 datarouter.get('/imgsrc/:imagesrc', function(req, res){
     res.sendFile(path.join(__dirname, '/imgsrc/' + req.params.imagesrc));
