@@ -11,6 +11,10 @@ pagerouter.get('/about', function(req, res){
     res.sendFile(path.join(__dirname, '/about/about.html'));
 });
 
+pagerouter.get('/howwork', function(req, res){
+    res.sendFile(path.join(__dirname, '/howwork/howwork.html'));
+});
+
 pagerouter.get('/keepalive', function(req, res){
     res.sendFile(path.join(__dirname, '/about/about.html'));
 });
