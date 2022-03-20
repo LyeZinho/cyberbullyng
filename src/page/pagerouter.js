@@ -12,7 +12,7 @@ pagerouter.get('/about', function(req, res){
 });
 
 pagerouter.get('/examples', function(req, res){
-    res.sendFile(path.join(__dirname, '/examples/howwork.html'));
+    res.sendFile(path.join(__dirname, '/examples/examples.html'));
 });
 
 pagerouter.get('/keepalive', function(req, res){
