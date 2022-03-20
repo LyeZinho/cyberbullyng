@@ -4,7 +4,7 @@ const path = require('path');
 
 
 datarouter.get('/home/css', function(req, res){
-    res.sendFile(path.join(__dirname, 'home/style.css'));
+    res.sendFile(path.join(__dirname, '/home/style.css'));
 });
 
 
